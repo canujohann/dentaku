@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.co.se.android.androidbook2.chapter0313"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- splash画面 -->
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 電卓 -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        
+        
+        <!-- 結果 -->
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        
+        
+    </application>
+
+</manifest>
