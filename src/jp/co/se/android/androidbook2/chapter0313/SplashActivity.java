@@ -10,6 +10,12 @@ import android.view.animation.Animation.AnimationListener;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+/**
+ * Splash‰æ–Ê
+ * ‚Q•bƒƒS‚ğ•\¦‚µAŸ‚Ìactivity‚Ö‘JˆÚ
+ * @author canu
+ *
+ */
 public class SplashActivity extends Activity {
 
 	public int SPLASH_DISPLAY_LENGTH = 2000;

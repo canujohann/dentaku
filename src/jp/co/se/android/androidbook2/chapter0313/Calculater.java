@@ -2,6 +2,11 @@ package jp.co.se.android.androidbook2.chapter0313;
 
 import android.content.Context;
 
+/**
+ * ŒvŽZ‚Ì•”•ª‚ð’S‚¤ƒNƒ‰ƒX
+ * @author canu
+ *
+ */
 public class Calculater {
     // “ü—Í’†‚Ì•¶Žš—ñ
     StringBuilder mInputNumber = new StringBuilder();

@@ -14,8 +14,10 @@ import android.widget.GridLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-/*
+/**
  * “d‘ì‰æ–Ê
+ * @author canu
+ *
  */
 public class MainActivity extends Activity implements TextWatcher,
         OnClickListener {

@@ -5,6 +5,11 @@ import android.os.Bundle;
 import android.view.Window;
 import android.widget.ArrayAdapter;
 
+/**
+ * Preferences‚É•Û‘¶‚³‚ê‚½î•ñ‚ğ•\¦‚·‚éactivity
+ * @author canu
+ *
+ */
 public class ResultActivity extends ListActivity {
 
 	@Override
