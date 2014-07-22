@@ -2,6 +2,7 @@ package jp.co.se.android.androidbook2.chapter0313;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 
 /**
  * preferences関連のクラスです
@@ -10,12 +11,12 @@ import android.content.SharedPreferences;
  */
 public class MyPreferences {
 	
-	public static final String PREF_NAME 		= "jp.ne.alij.test";
 	public static final String PREF_NAME_RESULT = "result";
 	public static final String DELIMIT 			= ",";
 
+	/* デフォルトのpreferencesを取得 */
 	public static SharedPreferences getMyPrefs(Context context){
-			return context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
+			return PreferenceManager.getDefaultSharedPreferences(context);
 	}
 	
 	/* 結果を追加 */
